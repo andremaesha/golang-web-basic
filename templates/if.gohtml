@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+</head>
+
+<body>
+    {{if .Name}}
+    <h1>Hello {{.Name}}</h1>
+    {{else}}
+    <h1>Hello, there</h1>
+    {{end}}
+
+    {{if .Age}}
+    <h1>{{.Age}}</h1>
+    {{else}}
+    <h1>Masih Kecil</h1>
+    {{end}}
+</body>
+
+</html>
